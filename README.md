@@ -23,7 +23,7 @@ This project is a terminal-based elevator simulation for a 9-story building (inc
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/elevator-simulation.git
+   https://github.com/Ilkin97/Elevator.git
 
 Navigate to the project directory:
 cd elevator-simulation
