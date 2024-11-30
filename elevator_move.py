@@ -23,19 +23,7 @@ class ElevatorMove:
                     print(f"{f}: {floor_dict[f]}")
             time.sleep(1)
         self.current_floor = target_floor
-
-        # def elevator_up(self, passengers, floor_dict):
-    #     if passengers:
-    #         target_floor = passengers[0].current_floor
-    #         self.door_logic.close_doors()
-    #         print("Please beware of the closing doors. The elevator is moving.")
-    #         time.sleep(2)
-
-    #         self.animate_movement(target_floor, floor_dict)
-
-    #         self.door_logic.open_doors()
-    #         print(f"This is {floor_dict[target_floor]}. Please enjoy your stay.")
-    #         passengers.pop(0)
+        
     
     def handle_passengers(self, passengers, floor_dict):
         while passengers:
